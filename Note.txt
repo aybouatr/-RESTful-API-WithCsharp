@@ -1,0 +1,6 @@
+
+=====================> Note <====================
+
+This project is targeting .NET Framework 4.7.2 and using C# language version 7.3.
+This means that the code in this project can utilize features available in C# 7.3, but it cannot use features introduced in later versions of C#. Additionally, since it is targeting .NET Framework 4.7.2, it may not have access to APIs and features that are available in newer versions of .NET, such as .NET Core or .NET 5/6/7.
+When working with this project, keep in mind the limitations of the language version and the target framework to ensure compatibility and avoid using unsupported features.
