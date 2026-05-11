@@ -82,7 +82,32 @@ Benefits of Restful Web API :
 			-> 
 			
 
+==============================> httpClient <==============================
 
+HttpClient : is a class in the .NET
+			framework that provides a way to send HTTP requests and receive HTTP responses from a resource identified by a URI.
+			It is commonly used for making API calls, retrieving data from web services, and interacting with RESTful APIs.
+properly example of using HttpClient :
+			-> Create an instance of HttpClient.
+			-> Use the appropriate HTTP method (GET, POST, PUT, DELETE) to send a request to the desired endpoint.
+			-> Handle the response by checking the status code and processing the response content as needed.
+			-> Dispose of the HttpClient instance when it is no longer needed to free up resources. 
 
+			{
+				httpClient client = new HttpClient();
+				// Example of sending a GET request
+				httpResponseMessage response = await client.GetFromJsonAsync("https://api.example.com/data");
+				httpResponseMessage response = await client.PostAsJsonAsync("https://api.example.com/data", newData);
+				if (response.IsSuccessStatusCode)
+				{
+					var responseData = await response.Content.ReadFromJsonAsync<ResponseType>();
+					// Process the response data
+				}
+				else
+				{
+					// Handle error response
+				}
+
+			}
 
 

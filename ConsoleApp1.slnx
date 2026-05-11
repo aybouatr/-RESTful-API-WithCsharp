@@ -3,8 +3,10 @@
     <File Path="Note.txt" />
   </Folder>
   <Project Path="../ ServerSideCode_FirstProjectWithAPI/ServerSideCode_FirstProjectWithAPI/ServerSideCode_FirstProjectWithAPI.csproj" Id="640de4d0-b782-4348-af76-a3bbd7974c2f" />
+  <Project Path="ClientSideStudentAPI/ClientSideStudentAPI.csproj" Id="cc643de3-a7c5-4f22-a012-288d5ad8fd1e" />
   <Project Path="ConsoleApp1/ChangeDesktopWallpaper.csproj" />
   <Project Path="GetScreenResolution/GetScreenResolution.csproj" />
   <Project Path="MessageBoxWithOS/MessageBoxWithOS.csproj" />
+  <Project Path="StudentsAPI/StudentsAPI.csproj" Id="6b0d84a1-eee5-4574-a824-3aaa4c2716c5" />
   <Project Path="WindowsFormsApp1/WindowsFormsApp1.csproj" Id="b351a32b-7605-48cd-b5cd-41fefe097601" />
 </Solution>

@@ -3,7 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{640DE4D0-B782-4348-AF76-A3BBD7974C2F}|..\\ ServerSideCode_FirstProjectWithAPI\\ServerSideCode_FirstProjectWithAPI\\ServerSideCode_FirstProjectWithAPI.csproj|c:\\users\\ayoub\\source\\repos\\ serversidecode_firstprojectwithapi\\serversidecode_firstprojectwithapi\\controllers\\myfirstapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC643DE3-A7C5-4F22-A012-288D5AD8FD1E}|ClientSideStudentAPI\\ClientSideStudentAPI.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\clientsidestudentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC643DE3-A7C5-4F22-A012-288D5AD8FD1E}|ClientSideStudentAPI\\ClientSideStudentAPI.csproj|solutionrelative:clientsidestudentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D84A1-EEE5-4574-A824-3AAA4C2716C5}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\studentsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D84A1-EEE5-4574-A824-3AAA4C2716C5}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D84A1-EEE5-4574-A824-3AAA4C2716C5}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\studentsapi\\datastudentsamulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D84A1-EEE5-4574-A824-3AAA4C2716C5}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\datastudentsamulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D84A1-EEE5-4574-A824-3AAA4C2716C5}|StudentsAPI\\StudentsAPI.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\studentsapi\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D84A1-EEE5-4574-A824-3AAA4C2716C5}|StudentsAPI\\StudentsAPI.csproj|solutionrelative:studentsapi\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\Note.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Note.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\StudentsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\StudentsAPI\\Program.cs",
+              "RelativeToolTip": "StudentsAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T13:47:53.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\StudentsAPI\\Model.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\Model.cs",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\StudentsAPI\\Model.cs",
+              "RelativeToolTip": "StudentsAPI\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T13:47:19.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataStudentSamulation.cs",
+              "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\StudentsAPI\\DataStudentSamulation.cs",
+              "RelativeDocumentMoniker": "StudentsAPI\\DataStudentSamulation.cs",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\StudentsAPI\\DataStudentSamulation.cs",
+              "RelativeToolTip": "StudentsAPI\\DataStudentSamulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T13:47:23.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Note.txt",
+              "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\Note.txt",
+              "RelativeDocumentMoniker": "Note.txt",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\Note.txt",
+              "RelativeToolTip": "Note.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-11T12:39:41.507Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -22,14 +91,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyFirstAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\ ServerSideCode_FirstProjectWithAPI\\ServerSideCode_FirstProjectWithAPI\\Controllers\\MyFirstAPIController.cs",
-              "RelativeDocumentMoniker": "..\\ ServerSideCode_FirstProjectWithAPI\\ServerSideCode_FirstProjectWithAPI\\Controllers\\MyFirstAPIController.cs",
-              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\ ServerSideCode_FirstProjectWithAPI\\ServerSideCode_FirstProjectWithAPI\\Controllers\\MyFirstAPIController.cs",
-              "RelativeToolTip": "..\\ ServerSideCode_FirstProjectWithAPI\\ServerSideCode_FirstProjectWithAPI\\Controllers\\MyFirstAPIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\ClientSideStudentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ClientSideStudentAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\ClientSideStudentAPI\\Program.cs*",
+              "RelativeToolTip": "ClientSideStudentAPI\\Program.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T06:23:15.056Z",
+              "WhenOpened": "2026-05-11T11:09:02.406Z",
               "EditorCaption": ""
             }
           ]
