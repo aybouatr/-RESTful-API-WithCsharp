@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Note.txt" />
+  </Folder>
+  <Project Path="../ ServerSideCode_FirstProjectWithAPI/ServerSideCode_FirstProjectWithAPI/ServerSideCode_FirstProjectWithAPI.csproj" Id="640de4d0-b782-4348-af76-a3bbd7974c2f" />
+  <Project Path="ConsoleApp1/ChangeDesktopWallpaper.csproj" />
+  <Project Path="GetScreenResolution/GetScreenResolution.csproj" />
+  <Project Path="MessageBoxWithOS/MessageBoxWithOS.csproj" />
+  <Project Path="WindowsFormsApp1/WindowsFormsApp1.csproj" Id="b351a32b-7605-48cd-b5cd-41fefe097601" />
+</Solution>

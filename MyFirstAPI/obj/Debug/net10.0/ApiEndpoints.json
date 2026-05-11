@@ -1,0 +1,43 @@
+[
+  {
+    "ContainingType": "MyFirstAPI.Controllers.SimplExampleAPIController",
+    "Method": "GetName",
+    "RelativePath": "api/SimplExampleAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MyFirstAPI.Controllers.SimplExampleAPIController",
+    "Method": "GetGreeting",
+    "RelativePath": "api/SimplExampleAPI/greeting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetGreeting"
+  }
+]

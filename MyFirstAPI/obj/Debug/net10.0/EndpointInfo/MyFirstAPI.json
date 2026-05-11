@@ -1,0 +1,77 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "MyFirstAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/SimplExampleAPI": {
+      "get": {
+        "tags": [
+          "SimplExampleAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SimplExampleAPI/greeting": {
+      "get": {
+        "tags": [
+          "SimplExampleAPI"
+        ],
+        "operationId": "GetGreeting",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "SimplExampleAPI"
+    }
+  ]
+}

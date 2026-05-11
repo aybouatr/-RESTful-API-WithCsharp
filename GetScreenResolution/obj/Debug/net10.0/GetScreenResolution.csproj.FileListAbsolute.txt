@@ -1,0 +1,14 @@
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\bin\Debug\net10.0\GetScreenResolution.exe
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\bin\Debug\net10.0\GetScreenResolution.deps.json
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\bin\Debug\net10.0\GetScreenResolution.runtimeconfig.json
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\bin\Debug\net10.0\GetScreenResolution.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\bin\Debug\net10.0\GetScreenResolution.pdb
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\GetScreenResolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\GetScreenResolution.AssemblyInfoInputs.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\GetScreenResolution.AssemblyInfo.cs
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\GetScreenResolution.csproj.CoreCompileInputs.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\GetScreenResolution.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\refint\GetScreenResolution.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\GetScreenResolution.pdb
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\GetScreenResolution.genruntimeconfig.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\GetScreenResolution\obj\Debug\net10.0\ref\GetScreenResolution.dll

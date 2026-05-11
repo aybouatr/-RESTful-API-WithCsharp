@@ -1,0 +1,14 @@
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ChangeDesktopWallpaper.exe
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ChangeDesktopWallpaper.deps.json
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ChangeDesktopWallpaper.runtimeconfig.json
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ChangeDesktopWallpaper.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ChangeDesktopWallpaper.pdb
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ChangeDesktopWallpaper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ChangeDesktopWallpaper.AssemblyInfoInputs.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ChangeDesktopWallpaper.AssemblyInfo.cs
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ChangeDesktopWallpaper.csproj.CoreCompileInputs.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ChangeDesktopWallpaper.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\refint\ChangeDesktopWallpaper.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ChangeDesktopWallpaper.pdb
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ChangeDesktopWallpaper.genruntimeconfig.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ref\ChangeDesktopWallpaper.dll

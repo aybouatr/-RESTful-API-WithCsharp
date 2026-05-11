@@ -1,0 +1,14 @@
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\bin\Debug\net10.0\MessageBoxWithOS.exe
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\bin\Debug\net10.0\MessageBoxWithOS.deps.json
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\bin\Debug\net10.0\MessageBoxWithOS.runtimeconfig.json
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\bin\Debug\net10.0\MessageBoxWithOS.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\bin\Debug\net10.0\MessageBoxWithOS.pdb
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\MessageBoxWithOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\MessageBoxWithOS.AssemblyInfoInputs.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\MessageBoxWithOS.AssemblyInfo.cs
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\MessageBoxWithOS.csproj.CoreCompileInputs.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\MessageBoxWithOS.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\refint\MessageBoxWithOS.dll
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\MessageBoxWithOS.pdb
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\MessageBoxWithOS.genruntimeconfig.cache
+C:\Users\ayoub\source\repos\ConsoleApp1\MessageBoxWithOS\obj\Debug\net10.0\ref\MessageBoxWithOS.dll
