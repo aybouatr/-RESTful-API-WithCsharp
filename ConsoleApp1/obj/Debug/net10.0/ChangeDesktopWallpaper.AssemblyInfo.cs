@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChangeDesktopWallpaper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+942c93191489fe8c3eb35ed32876d7540951ba3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e7113ccd199adb26c2625bef45f2a5b4ec59525")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChangeDesktopWallpaper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChangeDesktopWallpaper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
