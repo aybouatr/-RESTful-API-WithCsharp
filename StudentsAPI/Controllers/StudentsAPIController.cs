@@ -23,13 +23,14 @@ namespace StudentsAPI.Controllers
         public ActionResult<IEnumerable<Student>> GetStudentsPass()
         {
             var allSudentsPass = DataStudentSamulation.Students.Where(s => s.Grade >= 80).ToList();
-            allSudentsPass.Clear(); // Clear the list to simulate the case of no students passing the exam
+            allSudentsPass.Clear();
             if (!allSudentsPass.Any())
             {
                 return NotFound("No students passed the exam");
             }
             return Ok(allSudentsPass);
         }
+
 
         [HttpGet("Student/{id}", Name = "GetStudentByID")]
         [ProducesResponseType(typeof(Student), StatusCodes.Status200OK)]
@@ -50,10 +51,10 @@ namespace StudentsAPI.Controllers
             return Ok(student);
         }
 
+
         [HttpGet("AverageGrade", Name = "GetAverageGrade")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public ActionResult<double> GetAverageGrade()
         {
             //DataStudentSamulation.Students.Clear(); // Clear the students list to simulate the case of no students available
@@ -64,10 +65,10 @@ namespace StudentsAPI.Controllers
 
             var averageGrade = DataStudentSamulation.Students.Average(s => s.Grade);
 
-
-
             return Ok(averageGrade);
         }
+
+
 
         [HttpPost("AddStudent", Name = "AddStudent")]
         [ProducesResponseType(typeof(Student), StatusCodes.Status201Created)]
@@ -84,5 +85,6 @@ namespace StudentsAPI.Controllers
             return CreatedAtRoute("GetStudentByID", new { id = student.Id }, student);
 
         }
+    
     }
 }

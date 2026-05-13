@@ -37,7 +37,9 @@ Benifets of Web API :
 		-> It enables the development of cross-platform applications, as clients can be built using different technologies while still consuming the same API.
 		-> reusability, as the same API can be used by multiple clients, reducing the need for duplicate code and improving maintainability.
 		->Scalability, as Web API can be designed to handle a large number of requests and can be easily scaled horizontally by adding more servers to handle the load.
+
 main elaments of Web API :
+
 		-> Routing : defines how HTTP requests are mapped to specific actions in the API.
 		-> Controllers : contain the logic for handling incoming requests and returning responses.
 		-> Models : represent the data structures used in the API, such as request and response objects.
@@ -109,5 +111,17 @@ properly example of using HttpClient :
 				}
 
 			}
+
+================================> DTO <================================
+
+DTO : (Data Transfer Object) is a design pattern used to transfer data between different layers or components of an application.
+		It is a simple object that contains only the necessary data and does not contain any business logic or behavior.
+		DTOs are often used to encapsulate data and reduce the number of method calls when transferring data between layers, such as from the presentation layer to the service layer or from the service layer to the data access layer.
+		Benefits of using DTOs :
+
+		-> They can help to improve performance by reducing the amount of data that needs to be transferred between layers.
+		- They can help to decouple different layers of an application, making it easier to maintain and modify the code.
+		-> They can help to improve security by only exposing the necessary data and hiding sensitive information.
+		-> They can help to improve readability and maintainability by providing a clear structure for the data being transferred.
 
 

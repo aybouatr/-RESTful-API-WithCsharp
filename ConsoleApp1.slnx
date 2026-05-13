@@ -5,8 +5,12 @@
   <Project Path="../ ServerSideCode_FirstProjectWithAPI/ServerSideCode_FirstProjectWithAPI/ServerSideCode_FirstProjectWithAPI.csproj" Id="640de4d0-b782-4348-af76-a3bbd7974c2f" />
   <Project Path="ClientSideStudentAPI/ClientSideStudentAPI.csproj" Id="cc643de3-a7c5-4f22-a012-288d5ad8fd1e" />
   <Project Path="ConsoleApp1/ChangeDesktopWallpaper.csproj" />
+  <Project Path="DataAccessLayer/SudentsDataAccessLayer.csproj" Id="b99fc20f-e727-4eaf-8660-5d684e01d61c" />
+  <Project Path="DemoWithAPIThreeTierAppWithDatabase/DemoWithAPIThreeTierAppWithDatabase.csproj" Id="bc24c8ae-0f4c-4dd9-9c9b-4d3129d4fe5e" />
   <Project Path="GetScreenResolution/GetScreenResolution.csproj" />
+  <Project Path="LayerBusnessLogic/StudentAPIBusnissLayer.csproj" Id="7074b484-ef45-4ebc-b4b7-b6084e49dc2c" />
   <Project Path="MessageBoxWithOS/MessageBoxWithOS.csproj" />
   <Project Path="StudentsAPI/StudentsAPI.csproj" Id="6b0d84a1-eee5-4574-a824-3aaa4c2716c5" />
+  <Project Path="TestSqpConnection/TestSqpConnection.csproj" Id="e5fa32b1-0152-4cab-b1ac-e76978a73715" />
   <Project Path="WindowsFormsApp1/WindowsFormsApp1.csproj" Id="b351a32b-7605-48cd-b5cd-41fefe097601" />
 </Solution>
