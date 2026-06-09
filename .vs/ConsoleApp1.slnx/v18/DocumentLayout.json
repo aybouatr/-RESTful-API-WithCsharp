@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B99FC20F-E727-4EAF-8660-5D684E01D61C}|DataAccessLayer\\SudentsDataAccessLayer.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\dataaccesslayer\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99FC20F-E727-4EAF-8660-5D684E01D61C}|DataAccessLayer\\SudentsDataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC24C8AE-0F4C-4DD9-9C9B-4D3129D4FE5E}|DemoWithAPIThreeTierAppWithDatabase\\DemoWithAPIThreeTierAppWithDatabase.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\demowithapithreetierappwithdatabase\\controllers\\studentapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC24C8AE-0F4C-4DD9-9C9B-4D3129D4FE5E}|DemoWithAPIThreeTierAppWithDatabase\\DemoWithAPIThreeTierAppWithDatabase.csproj|solutionrelative:demowithapithreetierappwithdatabase\\controllers\\studentapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7074B484-EF45-4EBC-B4B7-B6084E49DC2C}|LayerBusnessLogic\\StudentAPIBusnissLayer.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\layerbusnesslogic\\busnisselogiclayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7074B484-EF45-4EBC-B4B7-B6084E49DC2C}|LayerBusnessLogic\\StudentAPIBusnissLayer.csproj|solutionrelative:layerbusnesslogic\\busnisselogiclayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99FC20F-E727-4EAF-8660-5D684E01D61C}|DataAccessLayer\\SudentsDataAccessLayer.csproj|c:\\users\\ayoub\\source\\repos\\-restful-api-withcsharp\\dataaccesslayer\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99FC20F-E727-4EAF-8660-5D684E01D61C}|DataAccessLayer\\SudentsDataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\Note.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Note.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BusnisseLogicLayer.cs",
               "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\LayerBusnessLogic\\BusnisseLogicLayer.cs",
               "RelativeDocumentMoniker": "LayerBusnessLogic\\BusnisseLogicLayer.cs",
               "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\LayerBusnessLogic\\BusnisseLogicLayer.cs",
               "RelativeToolTip": "LayerBusnessLogic\\BusnisseLogicLayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T18:44:21.916Z",
               "IsPinned": true,
@@ -40,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DataAccessLayer.cs",
               "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\DataAccessLayer\\DataAccessLayer.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.cs",
-              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\DataAccessLayer\\DataAccessLayer.cs*",
-              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.cs*",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAwwHQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\DataAccessLayer\\DataAccessLayer.cs",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAvwKIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T18:44:45.986Z",
               "IsPinned": true,
@@ -54,16 +58,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentAPI.cs",
               "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\DemoWithAPIThreeTierAppWithDatabase\\Controllers\\StudentAPI.cs",
               "RelativeDocumentMoniker": "DemoWithAPIThreeTierAppWithDatabase\\Controllers\\StudentAPI.cs",
-              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\DemoWithAPIThreeTierAppWithDatabase\\Controllers\\StudentAPI.cs",
-              "RelativeToolTip": "DemoWithAPIThreeTierAppWithDatabase\\Controllers\\StudentAPI.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwC4AAABCAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\DemoWithAPIThreeTierAppWithDatabase\\Controllers\\StudentAPI.cs*",
+              "RelativeToolTip": "DemoWithAPIThreeTierAppWithDatabase\\Controllers\\StudentAPI.cs*",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv04AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T18:48:13.65Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Note.txt",
+              "DocumentMoniker": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\Note.txt",
+              "RelativeDocumentMoniker": "Note.txt",
+              "ToolTip": "C:\\Users\\ayoub\\source\\repos\\-RESTful-API-WithCsharp\\Note.txt",
+              "RelativeToolTip": "Note.txt",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-13T22:51:50.629Z",
               "EditorCaption": ""
             },
             {

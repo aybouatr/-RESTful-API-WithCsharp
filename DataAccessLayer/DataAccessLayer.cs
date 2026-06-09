@@ -1,7 +1,8 @@
-﻿using System;
-using System.Data;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using SudentsDataAccessLayer;
+using System;
+using System.Data;
+using System.Reflection.PortableExecutable;
 
 namespace DataAccessLayer
 {
@@ -107,20 +108,95 @@ namespace DataAccessLayer
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                // You can log the error here
-                Console.WriteLine(ex.Message);
+                avg = -1;
+                //Console.WriteLine(ex.Message);
             }
 
             return avg;
         }
 
 
+        public static StudentOTO GetStudentById(int id)
+        {
+            try
+            {
+              
+                using (SqlConnection connection = new SqlConnection(SettingStringConnections.ConnectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand("SP_GetStudentById", connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
 
+                      
+                        cmd.Parameters.AddWithValue("@StudentId", id);
+
+                        connection.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            
+                            if (reader.Read())
+                            {
+                                return new StudentOTO(
+                                    reader.GetInt32(reader.GetOrdinal("Id")),
+                                    reader.GetString(reader.GetOrdinal("Name")),
+                                    reader.GetInt32(reader.GetOrdinal("Age")),
+                                    reader.GetInt32(reader.GetOrdinal("Grade"))
+                                );
+                            }
+                        }
+                    }
+                }
+
+                return null; // no data found
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message); // better for debugging
+                return null;
+            }
+        }
+
+
+        public static int AddNewStudent(StudentOTO student)
+        {
+            int id = -1;
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(SettingStringConnections.ConnectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand("SP_AddStudent", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        cmd.Parameters.AddWithValue("@Name", student.FullName);
+                        cmd.Parameters.AddWithValue("@Age", student.Age);
+                        cmd.Parameters.AddWithValue("@Grade", student.Grade);
+
+                        SqlParameter outputId = new SqlParameter("@NewStudentId", SqlDbType.Int)
+                        {
+                            Direction = ParameterDirection.Output
+                        };
+                        cmd.Parameters.Add(outputId);
+
+                        conn.Open();
+                        cmd.ExecuteNonQuery();
+
+                        id = (int)outputId.Value;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+               id = -1;
+            }
+
+            return id;
+        }
 
     }
-
-
 
 }
