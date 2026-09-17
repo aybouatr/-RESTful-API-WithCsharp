@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace StudentApi.Controllers 
 {
+    [Authorize] // This attribute enforces that all actions in this controller require authentication.
     [ApiController] // Marks the class as a Web API controller with enhanced features.
   //  [Route("[controller]")] // Sets the route for this controller to "students", based on the controller name.
     [Route("api/Students")]
@@ -13,11 +14,10 @@ namespace StudentApi.Controllers
     public class StudentsController : ControllerBase // Declare the controller class inheriting from ControllerBase.
     {
 
-        
+        [Authorize(Roles = "Admin")] // This attribute restricts access to this action to users with the "Admin" role.
         [HttpGet("All", Name ="GetAllStudents")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public ActionResult<IEnumerable<Student>> GetAllStudents() 
         {
 
@@ -28,11 +28,10 @@ namespace StudentApi.Controllers
             return Ok(StudentDataSimulation.StudentsList);
         }
 
+        [AllowAnonymous] // This attribute allows unauthenticated access to this specific action.
         [HttpGet("Passed",Name = "GetPassedStudents")]
-
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public ActionResult<IEnumerable<Student>> GetPassedStudents()
         {
             var passedStudents = StudentDataSimulation.StudentsList.Where(student => student.Grade >= 50).ToList();
@@ -47,6 +46,8 @@ namespace StudentApi.Controllers
             return Ok(passedStudents); // Return the list of students who passed.
         }
 
+
+        [AllowAnonymous] // This attribute allows unauthenticated access to this specific action.
         [HttpGet("AverageGrade", Name = "GetAverageGrade")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -64,12 +65,11 @@ namespace StudentApi.Controllers
             return Ok(averageGrade);
         }
 
-
+    
         [HttpGet("{id}", Name = "GetStudentById")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public ActionResult<Student> GetStudentById(int id)
         {
 
@@ -87,7 +87,10 @@ namespace StudentApi.Controllers
             return Ok(student);
         }
 
-        
+
+
+
+        [Authorize(Roles = "Admin")] // This attribute restricts access to this action to users with the "Admin" role.
         [HttpPost(Name = "AddStudent")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -105,6 +108,9 @@ namespace StudentApi.Controllers
 
         }
 
+
+
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}", Name = "DeleteStudent")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -126,6 +132,10 @@ namespace StudentApi.Controllers
             return Ok($"Student with ID {id} has been deleted.");
         }
 
+
+
+
+        [Authorize(Roles = "Admin")] // This attribute restricts access to this action to users with the "Student" or "Admin" role.
         [HttpPut("{id}", Name = "UpdateStudent")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
